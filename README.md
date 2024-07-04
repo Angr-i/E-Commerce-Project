@@ -1,3 +1,3 @@
 # E-Commerce-Project
 
-![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
+![Image alt](https://github.com/Angri154/E-Commerce-Project/blob/main/img/homepage.png)
