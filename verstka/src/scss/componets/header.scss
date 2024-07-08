@@ -1,0 +1,63 @@
+.header{
+  padding-top: 20px;
+  padding-bottom: 228px;
+  background-image: url('../img/header/nav-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.nav-row{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+}
+.nav-title{
+  padding-right: 45%;
+}
+.header-row{
+  margin-top: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-subtitle{
+  margin-top: 27px;
+}
+.header-button{
+  margin-top: 41px;
+}
+.header-title{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 110%;
+  letter-spacing: -2px;
+  color: #F9CDCD;
+  text-align: center;
+  max-width: 1286px;
+}
+.header-subtitle{
+  max-width: 526px;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: #FCFCFC;
+}
+.header-button{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 10px 35px;
+  border: 1px solid #FFFFFF;
+  border-radius: 30px;
+  transition: color 0.3s ease-in,background-color 0.3s ease-in;
+  &:hover{
+    transition: color 0.3s ease-in,background-color 0.3s ease-in;
+    background: #FFFFFF;
+    color: #000000;
+  }
+}
