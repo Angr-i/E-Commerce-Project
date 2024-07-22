@@ -1,63 +1,63 @@
-.header{
+.header {
   padding-top: 20px;
-  padding-bottom: 228px;
-  background-image: url('../img/header/nav-bg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: $light-gray-3;
 }
-.nav-row{
+.header_walper {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-
-}
-.nav-title{
-  padding-right: 45%;
-}
-.header-row{
-  margin-top: 170px;
-  display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: left;
 }
-.header-subtitle{
-  margin-top: 27px;
+.header_walper::after {
+  position: absolute;
+  content: '';
+  left: 85%;
+  top: 25%;
+  background-image: url('../img/header/bg-img.png');
+  width: 140px;
+  height: 140px;
+  z-index: 999;
 }
-.header-button{
-  margin-top: 41px;
+
+.header-text {
+  max-width: 610px;
+  z-index: 2;
+  position: absolute;
 }
-.header-title{
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 72px;
-  line-height: 110%;
-  letter-spacing: -2px;
-  color: #F9CDCD;
-  text-align: center;
-  max-width: 1286px;
-}
-.header-subtitle{
-  max-width: 526px;
+.header_toptile {
   font-size: 16px;
-  line-height: 32px;
-  text-align: center;
-  color: #FCFCFC;
+  font-weight: 700;
+  line-height: 24px;
+  color: $warning;
+  margin-bottom: 20px;
 }
-.header-button{
-  font-weight: 600;
+.header_title {
+  max-width: 400px;
+  color: $dark-gray;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 66px;
+  margin-bottom: 15px;
+}
+.header_subtitle {
+  max-width: 495px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  color: $dark-gray-2;
+  margin-bottom: 40px;
+}
+.header_button {
   font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  padding: 10px 35px;
-  border: 1px solid #FFFFFF;
-  border-radius: 30px;
-  transition: color 0.3s ease-in,background-color 0.3s ease-in;
-  &:hover{
-    transition: color 0.3s ease-in,background-color 0.3s ease-in;
-    background: #FFFFFF;
-    color: #000000;
-  }
+  font-weight: 700;
+  line-height: 24px;
+
+  border-radius: 10px;
+  background-color: $primary;
+  color: $light-gray-3;
+  padding: 15px 60px;
+}
+.header-img {
+  z-index: 1;
+  left: 30%;
+  position: relative;
 }

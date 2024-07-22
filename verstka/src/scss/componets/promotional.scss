@@ -1,0 +1,20 @@
+.promotional {
+  margin-top: 40px;
+}
+.promotional-cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.promotional-card {
+  width: 405px;
+  height: 250px;
+  overflow: hidden;
+  display: flex;
+}
+.promotional_card-text {
+  position: absolute;
+}
+.promotional_card-img {
+  position: relative;
+}
